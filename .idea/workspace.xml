@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65de6af2-e877-40de-ad1b-608595f64e64" name="Default Changelist" comment="Task: minor change for image">
-      <change afterPath="$PROJECT_DIR$/images/WebsiteHistory.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Internet Website History.html" beforeDir="false" afterPath="$PROJECT_DIR$/Internet Website History.html" afterDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +113,8 @@
     <MESSAGE value="Task: cards added for pages" />
     <MESSAGE value="Task: minor changes" />
     <MESSAGE value="Feature: header added for internet invention page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feature: header added for internet invention page" />
+    <MESSAGE value="Task: minor change" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task: minor change" />
   </component>
   <component name="WindowStateProjectService">
     <state x="547" y="261" width="271" height="277" key="Github.ShareDialog" timestamp="1601008152359">
