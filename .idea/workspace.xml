@@ -68,8 +68,6 @@
       <option name="presentableId" value="Default" />
       <updated>1601007908274</updated>
       <workItem from="1601007911808" duration="13299000" />
-      <workItem from="1601076663935" duration="6028000" />
-      <workItem from="1601096748944" duration="1415000" />
     </task>
     <task id="LOCAL-00001" summary="Feature: Home page added">
       <created>1601062347542</created>
@@ -92,14 +90,6 @@
       <option name="project" value="LOCAL" />
       <updated>1601088232130</updated>
     </task>
-    <task id="LOCAL-00004" summary="Feature: header added for internet invention page">
-      <created>1601093172576</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1601093172576</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,11 +127,7 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1601088978413" />
-    <state x="275" y="83" key="Vcs.Push.Dialog.v2" timestamp="1601093175471">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="275" y="83" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1601088234523" />
-    <state x="275" y="83" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1601093175471" />
+
     <state x="387" y="119" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601076791060" />
     <state x="500" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601089013832">
       <screen x="0" y="0" width="1366" height="728" />
