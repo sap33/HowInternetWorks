@@ -19,11 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65de6af2-e877-40de-ad1b-608595f64e64" name="Default Changelist" comment="Feature: header added for internet invention page">
+    <list default="true" id="65de6af2-e877-40de-ad1b-608595f64e64" name="Default Changelist" comment="Task: minor change for image">
+      <change afterPath="$PROJECT_DIR$/images/WebsiteHistory.PNG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Browser Wars.html" beforeDir="false" afterPath="$PROJECT_DIR$/Browser Wars.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Internet Invention.html" beforeDir="false" afterPath="$PROJECT_DIR$/Internet Invention.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Internet Search.html" beforeDir="false" afterPath="$PROJECT_DIR$/Internet Search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Internet Website History.html" beforeDir="false" afterPath="$PROJECT_DIR$/Internet Website History.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +39,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="People_part" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,9 +54,14 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hari patel\WebstormProjects\Internet History\images" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -127,7 +131,6 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1601088978413" />
-
     <state x="387" y="119" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601076791060" />
     <state x="500" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601089013832">
       <screen x="0" y="0" width="1366" height="728" />
