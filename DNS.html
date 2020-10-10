@@ -9,6 +9,16 @@
           integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+            crossorigin="anonymous"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <style>
         img {
             max-width: 60%;
@@ -27,7 +37,7 @@
             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
                aria-expanded="false">How Internet Works</a>
             <div class="dropdown-menu">
-                <a class="dropdown-item" href="Domain name.html">Domain names</a>
+                <a class="dropdown-item" href="Domain name.html">Domain Names</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="ICANN.html">ICANN</a>
                 <div class="dropdown-divider"></div>
@@ -62,17 +72,15 @@
             </div>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="Team.html">Team</a>
-        </li>
-        <li class="nav-item">
             <a class="nav-link" href="About.html">About us</a>
         </li>
     </ul>
 </div>
-<div class="container p-3 my-3 border">
-    <h5>DNS</h5>
+<div class="container p-3 my-3 border" style="text-align: justify;">
+    <div class="bg-dark text-white" style="padding-left: 1%;"><h4>DNS</h4></div>
+
     <p>
-        The Domain Name System (DNS) is the phonebook of the Internet. Humans access information online through domain
+        The <strong>Domain Name System (DNS)</strong> is the phonebook of the Internet. Humans access information online through domain
         names, like nytimes.com or espn.com. Web browsers interact through Internet Protocol (IP) addresses. DNS
         translates
         domain names to IP addresses so browsers can load Internet resources.
@@ -83,7 +91,7 @@
         newer
         alphanumeric IP addresses such as 2400:cb00:2048:1::c629:d7a2 (in IPv6).
     </p>
-    <p><strong>How does DNS work?</strong></p>
+    <p><i class='fas fa-hand-point-right'></i><strong style="padding-left: 0.5%;">How does DNS work?</strong></p>
     <p>
         The process of DNS resolution involves converting a hostname (such as www.example.com) into a computer-friendly
         IP
@@ -101,9 +109,9 @@
         components a DNS query must pass between. For the web browser, the DNS lookup occurs “ behind the scenes” and
         requires no interaction from the user’s computer apart from the initial request.
     </p>
-    <p><strong>There are 4 DNS servers involved in loading a webpage:</strong></p>
+    <p><i class='fas fa-hand-point-right'></i><strong style="padding-left: 0.5%;">There are 4 DNS servers involved in loading a webpage:</strong></p>
     <p>
-        • DNS recursor - The recursor can be thought of as a librarian who is asked to go find a particular book
+        • <strong>DNS recursor : </strong> The recursor can be thought of as a librarian who is asked to go find a particular book
         somewhere
         in a library. The DNS recursor is a server designed to receive queries from client machines through applications
         such as web browsers. Typically the recursor is then responsible for making additional requests in order to
@@ -111,19 +119,19 @@
         the client’s DNS query.
     </p>
     <p>
-        • Root nameserver - The root server is the first step in translating (resolving) human readable host names into
+        • <strong>Root nameserver : </strong> The root server is the first step in translating (resolving) human readable host names into
         IP
         addresses. It can be thought of like an index in a library that points to different racks of books - typically
         it
         serves as a reference to other more specific locations.
     </p>
     <p>
-        • TLD nameserver - The top level domain server (TLD) can be thought of as a specific rack of books in a library.
+        • <strong>TLD nameserver : </strong> The top level domain server (TLD) can be thought of as a specific rack of books in a library.
         This nameserver is the next step in the search for a specific IP address, and it hosts the last portion of a
         hostname (In example.com, the TLD server is “com”).
     </p>
     <p>
-        • Authoritative nameserver - This final nameserver can be thought of as a dictionary on a rack of books, in
+        • <strong>Authoritative nameserver : </strong> This final nameserver can be thought of as a dictionary on a rack of books, in
         which a
         specific name can be translated into its definition. The authoritative nameserver is the last stop in the
         nameserver
@@ -134,7 +142,7 @@
     <div class="class-img-margin">
         <img src="images/DNS1.jpg" class="mx-auto d-block">
     </div>
-    <p><strong>The 8 steps in a DNS lookup:</strong></p>
+    <p><i class='fas fa-hand-point-right'></i><strong style="padding-left: 0.5%;">The 8 steps in a DNS lookup:</strong></p>
     <p>
         1. A user types ‘example.com’ into a web browser and the query travels into the Internet and is received by a
         DNS
@@ -176,7 +184,7 @@
     <div class="class-img-margin">
         <img src="images/DNS2.jpg" class="mx-auto d-block">
     </div>
-    <p><strong>Types of DNS queries:</strong></p>
+    <p><i class='fas fa-hand-point-right'></i><strong style="padding-left: 0.5%;">Types of DNS queries:</strong></p>
     <p>
     1. Recursive query - In a recursive query, a DNS client requires that a DNS server (typically a DNS recursive
     resolver) will respond to the client with either the requested resource record or an error message if the resolver
@@ -195,7 +203,7 @@
     Typically, a DNS server will cache DNS records to prevent additional bandwidth consumption and load on upstream
     servers.
     </p>
-    <p> What is DNS caching? Where does DNS caching occur?</p>
+    <p><i class='fas fa-hand-point-right'></i><strong style="padding-left: 0.5%;"> What is DNS caching? Where does DNS caching occur?</strong></p>
     <p>
     The purpose of caching is to temporarily stored data in a location that results in improvements in performance and
     reliability for data requests. DNS caching involves storing data closer to the requesting client so that the DNS
@@ -203,7 +211,7 @@
     improving load times and reducing bandwidth/CPU consumption. DNS data can be cached in a variety of locations, each
     of which will store DNS records for a set amount of time determined by a time-to-live (TTL).
     </p>
-    <p><strong>Browser DNS caching</strong></p>
+    <p><i class='fas fa-hand-point-right'></i><strong style="padding-left: 0.5%;">Browser DNS caching</strong></p>
     <p>
     Modern web browsers are designed by default to cache DNS records for a set amount of time. the purpose here is
     obvious; the closer the DNS caching occurs to the web browser, the fewer processing steps must be taken in order to
@@ -215,8 +223,8 @@
     </p>
 </div>
 
-    <div class="bg-dark" style="width: 100%">
-        <footer class="container" style="width: 100%">
+    <div class="bg-dark" style="width: 100%;">
+        <footer class="container" style="width: 100%;">
             <p class="float-right"><a href="#">Back to top</a></p>
             <p class="text-white">&copy; 2020 Company, Inc. &middot; Privacy &middot; Terms
             </p>
@@ -224,15 +232,6 @@
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-            crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-            crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-            crossorigin="anonymous"></script>
 
 </body>
 

@@ -1,93 +1,244 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
           integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <style>
-        .class-card_div-margin {
-            margin-left: 5%;
-            margin-right: 5%;
-        }
-
-        .class-card-top-margin {
-            margin-top: 2%;
-        }
-
-        .class-img-margin {
-            margin-left: 5%;
-            margin-right: 7%;
-        }
-
-        img {
-            max-width: 100%;
-            height: auto;
-        }
-    </style>
-</head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+            crossorigin="anonymous"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    </head>
 <body>
 <div class="bg-dark">
+
     <ul class="nav nav-tabs">
         <li class="nav-item">
             <a class="nav-link" href="index.html">Home</a>
         </li>
-        <li class="nav-item">
-            <a class="nav-link" href="Internet Invention.html">Invention</a>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+               aria-expanded="false">How Internet Works</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="Domain name.html">Domain Names</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="ICANN.html">ICANN</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="IP Addresses.html">IP Addresses</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="Packets and Routing.html">Packets and Routing</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="DNS.html">DNS</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="HTTP and HTTPS Protocols.html">HTTP and HTTPS Protocols</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="W3C.html">W3C</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="HTML and CSS.html">HTML and CSS</a>
+            </div>
         </li>
-        <li class="nav-item">
-            <a class="nav-link" href="Browser Wars.html">Browser Wars</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="Internet Search.html">Internet Search</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="DotcomBubble.html">Dotcom Bubble</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="People Part.html">People Part</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="Internet Website History.html">Website History</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="Team.html">Team</a>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+               aria-expanded="false">Internet History</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="Internet Invention.html">Invention</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="Browser Wars.html">Browser Wars</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="Internet Search.html">Internet Search</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="DotcomBubble.html">Dotcom Bubble</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="People Part.html">People Part</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="Internet Website History.html">Website History</a>
+            </div>
         </li>
         <li class="nav-item">
             <a class="nav-link active" href="About.html">About us</a>
         </li>
     </ul>
 </div>
-<hr>
-<div style="margin-bottom: 2%">
-    <br>
+<div class="container p-3 my-3 border" style="text-align: justify;">
+
     <div class="class-card_div-margin">
-        <h1>About us</h1>
+        <div class="bg-dark text-white" style="padding-left: 1%;"><h4>About Us</h4></div>
         <p>
-            This article is about history of internet and history of website,which includes invention of internet,war
-            for the browser,internet search,dotcom bubble bursting,who gave the contribution towards internet invention
-            and history of website.Here are the full history of the internet and website.
+            This website is created by  <a href="Team.html">Sahil Patel</a> and it is about how the internet works and history of internet and history of website, which includes W3C, domain names, IP addresses, packet and routing, ICANN, HTTP and HTTPS protocol, invention of internet, war
+            for the browser, internet search and many more. Below are brief information of these.
         </p>
         <hr>
-<!--        <div style="background-color: lightgray">-->
-<!--            <a href="Internet Invention.html" class="btn btn-primary">Read More...</a>-->
-<!--        </div>-->
         <div class="accordion" id="accordionExample">
+            <div class="card">
+                <div class="card-header" id="headingThree1">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                                data-target="#collapseThree1" aria-expanded="false" aria-controls="collapseThree1">
+                            Domain Name
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseThree1" class="collapse" aria-labelledby="headingThree1" data-parent="#accordionExample">
+                    <div class="card-body">
+                            A domain name is your website name. A domain name is the address where Internet users can access your website. A
+                            domain name is used for finding and identifying computers on the Internet. Computers use IP addresses, which are
+                            a series of number. However, it is difficult for humans to remember strings of numbers. Because of this, domain
+                            names were developed<a href="Domain name.html">read more...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree2">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                                data-target="#collapseThree2" aria-expanded="false" aria-controls="collapseThree2">
+                            ICANN
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseThree2" class="collapse" aria-labelledby="headingThree2" data-parent="#accordionExample">
+                    <div class="card-body">
+                        ICANN, which stands for Internet Corporation for Assigned Names and Numbers, is a non-profit organization that
+                        was established in the United States in 1998 to help maintain the security of the Internet, and allow it to be
+                        usable by all. Anytime you register a domain on the Internet, you go through a domain name registrar, who pays a
+                        small fee to ICANN to register your domain as<a href="ICANN.html">read more...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree3">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                                data-target="#collapseThree3" aria-expanded="false" aria-controls="collapseThree3">
+                            IP Addresses
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseThree3" class="collapse" aria-labelledby="headingThree3" data-parent="#accordionExample">
+                    <div class="card-body">
+                        IP address stands for internet protocol address; it is an identifying number that is associated with a specific
+                        computer or computer network. When connected to the internet, the IP address allows the computers to send and
+                        receive information<a href="IP Addresses.html">read more...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree4">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                                data-target="#collapseThree4" aria-expanded="false" aria-controls="collapseThree4">
+                            Packets and Routing
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseThree4" class="collapse" aria-labelledby="headingThree4" data-parent="#accordionExample">
+                    <div class="card-body">
+                        In networking, a packet is a small segment of a larger message. Data sent over computer networks*, such as the
+                        Internet, is divided into packets. These packets are then recombined by the computer or device that receives
+                        them.On the Internet, the network breaks an e-mail message into parts of a certain size in bytes. These are the
+                        packets<a href="Packets and Routing.html">read more...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree5">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                                data-target="#collapseThree5" aria-expanded="false" aria-controls="collapseThree5">
+                            DNS
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseThree5" class="collapse" aria-labelledby="headingThree5" data-parent="#accordionExample">
+                    <div class="card-body">
+                        The Domain Name System (DNS) is the phonebook of the Internet. Humans access information online through domain
+                        names, like nytimes.com or espn.com. Web browsers interact through Internet Protocol (IP) addresses. DNS
+                        translates domain names to IP addresses so browsers can load Internet resources <a href="DNS.html">read more...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree6">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                                data-target="#collapseThree6" aria-expanded="false" aria-controls="collapseThree6">
+                            HTTP and HTTPS Protocols
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseThree6" class="collapse" aria-labelledby="headingThree6" data-parent="#accordionExample">
+                    <div class="card-body">
+                        HTTP stands for Hypertext Transfer Protocol. Within the internet protocol suite, HTTP is an application
+                        layer protocol to establish and improve the client-server communication between distributed, shared and
+                        hypermedia information systems.The communication is achieved by sending the HTTP requests and receiving the HTTP responses over www (world
+                        wide web)<a href="HTTP and HTTPS Protocols.html">read more...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree7">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                                data-target="#collapseThree7" aria-expanded="false" aria-controls="collapseThree7">
+                            W3C
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseThree7" class="collapse" aria-labelledby="headingThree7" data-parent="#accordionExample">
+                    <div class="card-body">
+                        The World Wide Web Consortium (W3C) is an international organization committed to improving the web. It is made
+                        up
+                        of several hundred member organizations from a variety of related IT industries. W3C sets standards for the
+                        World
+                        Wide Web (WWW) to facilitate interoperability and cooperation among all web stakeholders. It was established in
+                        1994
+                        by the creator of the WWW, Tim Berners-Lee<a href="W3C.html">read more...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree8">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                                data-target="#collapseThree8" aria-expanded="false" aria-controls="collapseThree8">
+                            HTML And CSS
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseThree8" class="collapse" aria-labelledby="headingThree8" data-parent="#accordionExample">
+                    <div class="card-body">
+                        HTML stands for Hypertext Markup Language, and it is the most widely used language to write Web Pages.
+                            Hypertext refers to the way in which Web pages (HTML documents) are linked together. Thus, the link available
+                            on a
+                            webpage is called Hypertext.
+                            As its name suggests, HTML is a Markup Language which means you use HTML to simply "mark-up" a text document
+                            with tags that tell a Web browser how to structure<a href="HTML and CSS.html">read more...</a>
+                    </div>
+                </div>
+            </div>
             <div class="card">
                 <div class="card-header" id="headingOne">
                     <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
-                                data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                                data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                             Invention of internet
                         </button>
                     </h2>
                 </div>
 
-                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
-                     data-parent="#accordionExample1">
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+                     data-parent="#accordionExample">
                     <div class="card-body">
                         The Internet is the defining technology of our time and historic revolution in communications
                         for the human
@@ -97,7 +248,7 @@
                         language and the printing press. The internet enables millions of people with personal computers
                         to communicate
                         and
-                        connect its email. You’ve got mail its news groups and chat rooms <a
+                        connect its email. You’ve got mail  <a
                             href="Internet Invention.html">read more...</a>
                     </div>
                 </div>
@@ -120,9 +271,7 @@
                         a lot of mischief. that's for sure we've also created some pretty cool gear which kind of got me
                         thinking
                         thousands of years from now when learning scholars gaze back and try to list the most important
-                        transformative. world-changing inventions in the history of humanity what's likely to make the
-                        cut the
-                        electric light bulb steam engine the internal combustion engine aeroplane <a
+                        <a
                             href="Browser Wars.html">read more...</a>
                     </div>
                 </div>
@@ -144,11 +293,7 @@
                         before that
                         there was no way at all to search. Internet and that posed a big problem because really what
                         hust was the
-                        world wide web if you couldn't navigate it and get where you want it to go. After that the
-                        companies that
-                        took a stab at search included some of the most iconic names in the history of the net like
-                        Yahoo, Excite
-                        and many more before Google <a href="Internet Search.html">read more...</a>
+                        world wide web if you couldn't <a href="Internet Search.html">read more...</a>
                     </div>
                 </div>
             </div>
@@ -230,19 +375,6 @@
                     </div>
                 </div>
             </div>
-
-
-            <!-- Optional JavaScript -->
-            <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-                    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-                    crossorigin="anonymous"></script>
-            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-                    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-                    crossorigin="anonymous"></script>
-            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-                    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-                     crossorigin="anonymous"></script>
         </div>
     </div>
 </div>

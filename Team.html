@@ -7,7 +7,17 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
           integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+            crossorigin="anonymous"></script>
     <style>
         .class-card_div-margin{
             margin-left: 25%;
@@ -56,26 +66,43 @@
         <li class="nav-item">
             <a class="nav-link" href="index.html">Home</a>
         </li>
-        <li class="nav-item">
-            <a class="nav-link" href="Internet Invention.html">Invention</a>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+               aria-expanded="false">How Internet Works</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="Domain name.html">Domain Names</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item active" href="ICANN.html">ICANN</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="IP Addresses.html">IP Addresses</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="Packets and Routing.html">Packets and Routing</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="DNS.html">DNS</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="HTTP and HTTPS Protocols.html">HTTP and HTTPS Protocols</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="W3C.html">W3C</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="HTML and CSS.html">HTML and CSS</a>
+            </div>
         </li>
-        <li class="nav-item">
-            <a class="nav-link" href="Browser Wars.html">Browser Wars</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="Internet Search.html">Internet Search</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="DotcomBubble.html">Dotcom Bubble</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="People Part.html">People Part</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="Internet Website History.html">Website History</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link active" href="Team.html">Team</a>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+               aria-expanded="false">Internet History</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="Internet Invention.html">Invention</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="Browser Wars.html">Browser Wars</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="Internet Search.html">Internet Search</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="DotcomBubble.html">Dotcom Bubble</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="People Part.html">People Part</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="Internet Website History.html">Website History</a>
+            </div>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="About.html">About us</a>
@@ -83,7 +110,18 @@
     </ul>
 </div>
 <hr>
-<div class="class-card_div-margin" style="margin-bottom: 2%">
+<div class="container" style="margin-bottom: 2%">
+
+    <div class="card" style="width:400px;">
+        <img class="card-img-top" src="images/sahil.jpg" alt="Card image" style="width:100%">
+        <div class="card-body">
+            <h4 class="card-title">Sahil Patel</h4>
+            <a href="#" class="btn btn-primary stretched-link">Linked IN</a>
+        </div>
+    </div>
+</div>
+
+<!--<div class="class-card_div-margin" style="margin-bottom: 2%">
     <div class="card-deck" class="class-card-margin">
         <div class="card">
             <img class="card-img-top" src="images/sahil.jpg" alt="Card image cap">
@@ -96,7 +134,7 @@
             </div>
         </div>
 
-        <div class="card">
+        &lt;!&ndash;<div class="card">
             <img class="card-img-top" src="images/harikrushna patel.jpg" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">Harikrushna Patel</h5>
@@ -105,9 +143,9 @@
                 <small class="text-muted"></small>
                 <a href="https://www.linkedin.com/in/harikrushna-790b12187/" class="fa fa-linkedin"></a>
             </div>
-        </div>
+        </div>&ndash;&gt;
     </div>
-</div>
+</div>-->
 <div class="bg-dark" style="width: 100%">
     <footer class="container" style="width: 100%">
         <p class="float-right"><a href="#">Back to top</a></p>

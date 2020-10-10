@@ -7,6 +7,24 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
           integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+            crossorigin="anonymous"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <style>
+        img {
+            max-width: 60%;
+            height: auto;
+        }
+    </style>
 </head>
 <body>
 <div class="bg-dark">
@@ -19,7 +37,7 @@
             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
                aria-expanded="false">How Internet Works</a>
             <div class="dropdown-menu">
-                <a class="dropdown-item" href="Domain name.html">Domain names</a>
+                <a class="dropdown-item" href="Domain name.html">Domain Names</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="ICANN.html">ICANN</a>
                 <div class="dropdown-divider"></div>
@@ -54,32 +72,213 @@
             </div>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="Team.html">Team</a>
-        </li>
-        <li class="nav-item">
             <a class="nav-link" href="About.html">About us</a>
         </li>
     </ul>
 </div>
-<div class="bg-dark" style="width: 100%">
-    <footer class="container" style="width: 100%">
+<div class="container p-3 my-3 border" style="text-align: justify;">
+    <div class="bg-dark text-white" style="padding-left: 1%;"><h4>HTML and CSS</h4></div>
+    <p><i class='fas fa-hand-point-right'></i><strong style="padding-left: 0.5%;">HTML</strong></p>
+    <p>
+        HTML stands for <strong>Hypertext Markup Language</strong>, and it is the most widely used language to write Web Pages.
+    </p>
+    <p>
+        Hypertext refers to the way in which Web pages (HTML documents) are linked together. Thus, the link available
+        on a
+        webpage is called Hypertext.
+    </p>
+    <p>
+        As its name suggests, HTML is a Markup Language which means you use HTML to simply "mark-up" a text document
+        with
+        tags that tell a Web browser how to structure it to display.
+    </p>
+    <p>
+        Originally, HTML was developed with the intent of defining the structure of documents like headings, paragraphs,
+        lists, and so forth to facilitate the sharing of scientific information between researchers.
+        Now, HTML is being widely used to format web pages with the help of different tags available in HTML language.
+    </p>
+    <p>
+        An HTML element is set off from other text in a document by "tags", which consist of the element name surrounded
+        by "<" and ">". The name of an element inside a tag is case insensitive. That is, it can be written in
+        uppercase, lowercase, or a mixture.
+    </p>
+    <p><i class='fas fa-hand-point-right'></i><strong style="padding-left: 0.5%;">Basic HTML Document</strong></p>
+    <div class="class-img-margin">
+        <img src="images/htmlprg.PNG" class="mx-auto d-block">
+    </div>
+    <p>
+        this HTML code, or let's save it in an HTML file test.htm using your favorite text editor. Finally open it using
+        a web browser like Internet Explorer or Google Chrome, or Firefox etc. It must show the following output:
+    </p>
+    <div class="class-img-margin">
+        <img src="images/HTML2.jpg" class="mx-auto d-block">
+    </div>
+    <p>
+        HTML Tags
+        As told earlier, HTML is a markup language and makes use of various tags to format the content. These tags are
+        enclosed within angle braces &lt Tag Name &gt. Except few tags, most of the tags have their corresponding
+        closing tags. For example, &lt html &gt has its closing tag &lt /html &gt and &lt body &gt tag has its closing
+        tag &lt /body &gt tag etc.
+    </p>
+    <p>
+        Above example of HTML document uses the following tags:
+
+    </p>
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th> Tags</th>
+            <th>Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>&lt!DOCTYPE...&gt</td>
+            <td>This tag defines the document type and HTML version.</td>
+        </tr>
+        <tr>
+            <td> &lt html &gt</td>
+            <td>This tag encloses the complete HTML document and mainly comprises of document header which is
+                represented by &lt head &gt...&lt/head &gt and document body which is represented by &lt body &gt...&lt
+                /body &lt tags.
+            </td>
+        </tr>
+
+        <tr>
+            <td>&lt head &gt</td>
+            <td>This tag represents the document's header which can keep other HTML tags like &lt title &gt, &lt link
+                &gt etc.
+            </td>
+        </tr>
+        <tr>
+            <td>&lt title &gt</td>
+            <td>The &lt title &gt tag is used inside the &lt head &gt tag to mention the document title.</td>
+        </tr>
+        <tr>
+            <td>&lt body &gt</td>
+            <td>This tag represents the document's body which keeps other HTML tags like &lt h1 &gt, &lt div &gt, &lt p
+                &gt etc.
+            </td>
+        </tr>
+
+        <tr>
+            <td>&lt h1 &gt</td>
+            <td>This tag represents the heading</td>
+        </tr>
+        <tr>
+            <td>&lt p &gt</td>
+            <td>This tag represents a paragraph.</td>
+        </tr>
+        </tbody>
+    </table>
+    <p>A typical HTML document will have the following structure:</p>
+    <div class="class-img-margin">
+        <img src="images/HTML3.PNG" class="mx-auto d-block">
+    </div>
+    <p><i class='fas fa-hand-point-right'></i><strong style="padding-left: 0.5%;">CSS</strong></p>
+    <p>
+        Cascading Style Sheet or CSS is a stylesheet language that dictates how your website elements should look like.
+        You can control the design, layout, font, and the color of your website content by embedding a CSS file into
+        your HTML document.
+    </p>
+    <p>
+        Cascading Style Sheets (CSS) is a markup language responsible for how your web pages will look like. It controls
+        the colors, fonts, and layouts of your website elements.
+    </p>
+    <p>
+        This style sheet language also allows you to add effects or animations to your website. You can use it to
+        display some CSS animations like click button effects, spinners or loaders, and animated background
+
+    </p>
+    <p>
+        Look at how CSS works, by breaking down the syntax:
+    </p>
+
+    <p><strong>selector {declaration}</strong></p>
+    <p>
+        The declaration can be broken down into:
+    </p>
+    <p><strong>selector {property: value;}</strong></p>
+    <p>
+        As you can see, the CSS syntax consists of a selector and a declaration block. The selector is the HTML element
+        that you’re about to control. Whereas the declaration block contains the property name and the value of the HTML
+        element – both of them are separated by a colon (:) and declared within curly brackets ({}).
+    </p>
+    <p>
+        Let’s say you want the font size of your heading one (h3) to be 20 pixels. Your syntax should look like this:
+    </p>
+    <p><strong>h3 {font-size: 20px;}</strong></p>
+    <p>
+        In this case, the selector is h3. Then, font-size is the property name, and 20px is the value.
+
+    </p>
+    <div class="class-img-margin">
+        <img src="images/css.jpg" class="mx-auto d-block">
+    </div>
+    <p>
+        There are three ways you can use to implement CSS:<strong> internal, external, and inline styles.</strong> Let’s break them down.
+    </p>
+    <p><strong>Internal CSS</strong></p>
+    <p>
+        Internal or embedded CSS requires you to add &lt style &gt tag in the &lt head &gt section of your HTML
+        document.
+    </p>
+    <p>
+        This CSS style is an effective method of styling a single page. However, using this style for multiple pages is
+        time-consuming as you need to put CSS rules to every page of your website.
+    </p>
+    <p>
+        Here’s how you can use internal CSS:
+    </p>
+    <p>
+        Open your HTML page and locate &lt head &gt opening tag.
+        Put the following code right after the &lt head &gt tag
+        &lt style type="text/css">
+    </p>
+    <p>
+        Disadvantages of Internal CSS:
+    </p>
+    <p>
+        Adding the code to the HTML document can increase the page’s size and loading time.
+    </p>
+
+    <p><strong>External CSS</strong></p>
+    <p>
+        With external CSS, you’ll link your web pages to an external .css file, which can be created by any text editor
+        in your device (e.g., Notepad++).
+    </p>
+     <p>
+        This CSS type is a more efficient method, especially for styling a large website. By editing one .css file, you
+        can change your entire site at once.
+     </p>
+    <p><strong>Inline CSS</strong></p>
+    <p>
+        Inline CSS is used to style a specific HTML element. For this CSS style, you’ll only need to add the style
+        attribute to each HTML tag, without using selectors.
+    </p>
+    <p>
+        This CSS type is not really recommended, as each HTML tag needs to be styled individually. Managing your website
+        may become too hard if you only use inline CSS.
+    </p>
+    <p>
+        However, inline CSS in HTML can be useful in some situations. For example, in cases where you don’t have access
+        to CSS files or need to apply styles for a single element only.
+    </p>
+        <P><strong>Here’s the recap:</strong></P>
+    <p>Internal or embedded — add
+        &lt style &gt tag in the &lt head &gt section of HTML document.</p>
+    <p>External — link the HTML sheet to a separate.css file.</p>
+    <p>Inline — apply CSS rules for specific elements.</p>
+
+</div>
+
+<div class="bg-dark" style="width: 100%;">
+    <footer class="container" style="width: 100%;">
         <p class="float-right"><a href="#">Back to top</a></p>
         <p class="text-white">&copy; 2020 Company, Inc. &middot; Privacy &middot; Terms
         </p>
     </footer>
 </div>
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-        crossorigin="anonymous"></script>
-
 </body>
 
 </html>

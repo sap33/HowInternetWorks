@@ -7,6 +7,24 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
           integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+            crossorigin="anonymous"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <style>
+        img {
+            max-width: 60%;
+            height: auto;
+        }
+    </style>
 </head>
 <body>
 <div class="bg-dark">
@@ -19,7 +37,7 @@
             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
                aria-expanded="false">How Internet Works</a>
             <div class="dropdown-menu">
-                <a class="dropdown-item" href="Domain name.html">Domain names</a>
+                <a class="dropdown-item" href="Domain name.html">Domain Names</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="ICANN.html">ICANN</a>
                 <div class="dropdown-divider"></div>
@@ -54,12 +72,166 @@
             </div>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="Team.html">Team</a>
-        </li>
-        <li class="nav-item">
             <a class="nav-link" href="About.html">About us</a>
         </li>
     </ul>
+</div>
+<div class="container p-3 my-3 border" style="text-align: justify;">
+    <div class="bg-dark text-white" style="padding-left: 1%;"><h4>HTTP</h4></div>
+    <p>
+        HTTP stands for Hypertext Transfer Protocol. Within the internet protocol suite, HTTP is an application
+        layer protocol to establish and improve the client-server communication between distributed, shared and
+        hypermedia information systems.
+    </p>
+    <p>
+        The communication is achieved by sending the HTTP requests and receiving the HTTP responses over www (world
+        wide web).
+    </p>
+    <div class="class-img-margin">
+        <img src="images/HTTP1.jpg" class="mx-auto d-block">
+    </div>
+    <p>
+        A client (say, a web browser) sends an HTTP request to the web server (say, a cloud computer). The server
+        receives the request and executes an application to process the request. It then returns the application
+        execution output i.e. HTTP response to the client. The client receives the response.
+    </p>
+    <div class="class-img-margin">
+        <img src="images/HTTP2.jpg" class="mx-auto d-block">
+    </div>
+    <p>
+    <p><i class='fas fa-hand-point-right'></i><strong style="padding-left: 0.5%;">HTTPS</strong></p>
+    <p>
+        HTTPS, developed by Netscape, is stands for Hypertext Transfer Protocol Secure. The limitation with HTTP is that
+        the flow of information between client and server is not encrypted and thus anyone can steal the information.
+    </p>
+    <p>
+        The hypertext exchanged using HTTP travels as plain text and anyone can easily read it or inject their own code
+        if intercepts the communication for their own benefits. Thus, HTTPS was developed to overcome this security of
+        limitation of HTTP.
+    </p>
+    <p>
+        The ‘S’ at last of HTTPS is known for ‘Secure’. HTTPS is an extension of HTTP to enable secure communication
+        across a computer network and is broadly used on the internet. HTTPS = HTTP + cryptographic protocols. HTTPS
+        also falls in the application layer of the Internet Protocol suite.
+    </p>
+    <div class="class-img-margin">
+        <img src="images/HTTP3.png" class="mx-auto d-block">
+    </div>
+    <p>
+        HTTPS provides bidirectional encryption between client and server i.e. it encrypts and decrypts the browser
+        requests
+        and server responses which in turn provides protection against man-in-the-middle attacks, eavesdropping, and
+        tampering of the message.
+    </p>
+    <p>
+        So, HTTPS basically provides authentication of the accessed website and protects the privacy & integrity of data
+        in
+        transit during client-server communication. It assures secure communication.
+    </p>
+    <div class="class-img-margin">
+        <img src="images/HTTP4.jpg" class="mx-auto d-block">
+    </div>
+    <p>You must have observed a padlock icon like below when you open the web browser like Chrome, IE or any other.</p>
+    <div class="class-img-margin">
+        <img src="images/HTTP5.jpg" class="mx-auto d-block">
+    </div>
+
+    <p>his lock icon tells that the HTTPS connection is in effect.</p>
+    <p>
+        HTTPS initially came to use in the financial domain, for example, in online payment transactions like online
+        banking
+        and online shopping.
+    </p>
+    <p>
+        But in recent times, it is being widely used in almost all type of websites so that the authenticity of the web
+        data
+        is protected, user’s account and browsing information can be secured and kept private.
+    </p>
+    <p>The Exact Differences – HTTP vs HTTPS</p>
+    <table class="table table-bordered">
+        <thead>
+        <tr>
+            <th>HTTP</th>
+            <th>HTTPS</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>The HTTP URL starts with HTTP :// and uses port 80 as its default port.</td>
+            <td>The HTTPS URL starts with https :// and uses port 443 as its default port.</td>
+        </tr>
+        <tr>
+            <td>HTTP is not secured and is susceptible to man-in-the-middle attacks and eavesdropping which may lead to
+                virus injections and leak sensitive information to attackers.
+            </td>
+            <td>HTTPS is encrypted and secured. It has the capability to resist such attacks and provide authentication,
+                privacy, and security.
+            </td>
+        </tr>
+        <tr>
+            <td>This protocol was invented by Sir Timothy John.</td>
+            <td>This protocol was invented by Netscape Corporation for its Navigator browser.</td>
+        </tr>
+        <tr>
+            <td>Does not use an SSL certificate for communication.</td>
+            <td>Uses SSL certificate for communication.</td>
+        </tr>
+        <tr>
+            <td>Does not use data encryption.</td>
+            <td>Uses data encryption.</td>
+        </tr>
+        <tr>
+            <td>Suitable for use in information consumption websites like blogs, forums, educational sites,
+                entertainment, and articles.
+            </td>
+            <td>This is the right fit for the websites that collect private and sensitive information like financial or
+                other confidential data. For example, payment gateways, shopping websites.
+            </td>
+        </tr>
+        <tr>
+            <td>It addresses the need to exchange information over the internet.</td>
+            <td>It addresses the need to exchange confidential information over insecure internet.</td>
+        </tr>
+        <tr>
+            <td>Talking about speed, it is faster than HTTPS because of its simplicity. It is a stateless protocol and
+                does not recalls anything of the preceding web session.
+            </td>
+            <td>Talking about speed, it is slower than HTTP. This is because establishing a secure session takes up some
+                processing time.
+            </td>
+        </tr>
+        <tr>
+            <td>Does not improve search ranking.</td>
+            <td>Improves search ranking. In the year 2014, Google began utilizing HTTPS as a ranking signal.</td>
+        </tr>
+        <tr>
+            <td>We can’t use AMP (Accelerated mobile pages) with HTTP.</td>
+            <td>HTTPS gives you the benefit of using AMP. Having HTTPS is a must have if you want to use Google AMP.
+            </td>
+        </tr>
+        <tr>
+            <td>Does not save the referrer data. Referral sources only appear as direct traffic.</td>
+            <td>Preserves Referrer data. Thus, makes google analytics more effective and proves to be a big advantage
+                for SEO.
+            </td>
+        </tr>
+        <tr>
+            <td>Less trust with visitors as they feel a risk of security breach and their sensitive information may be
+                leaked out.
+            </td>
+            <td>Establishes trust with visitors as they know that their sensitive information like credentials, browsing
+                history, account details, etc. are not at the risk of exposure.
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <p><i class='fas fa-hand-point-right'></i><strong style="padding-left: 0.5%;"> Below image will help to visualize the main differences between HTTP and https:</strong></p>
+    <div class="class-img-margin">
+        <img src="images/HTTPS 1.jpg" class="mx-auto d-block">
+    </div>
+
+</div>
+
 </div>
 <div class="bg-dark" style="width: 100%">
     <footer class="container" style="width: 100%">
@@ -68,17 +240,7 @@
         </p>
     </footer>
 </div>
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-        crossorigin="anonymous"></script>
+
 
 </body>
 
